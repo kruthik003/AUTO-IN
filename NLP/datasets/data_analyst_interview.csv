@@ -1,0 +1,117 @@
+﻿Q,A
+"Define the term 'Data Wrangling in Data Analytics.
+","Data Wrangling is the process wherein raw data is cleaned, structured, and enriched into a 
+desired usable format for better decision making. It involves discovering, structuring, cleaning, enriching, validating, and analyzing data. This process can turn and map out large amounts of data extracted 
+from various sources into a more useful format. Techniques such as merging, grouping, concatenating, joining, and sorting are used to analyze the data. Thereafter it gets ready to be used with another dataset."
+What are the various steps involved in any analytics project?,"This is one of the most basic data analyst interview questions. 
+The various steps involved in any common analytics projects are as follows:
+
+Understanding the Problem
+Understand the business problem, define the organizational goals, and plan for a lucrative solution.
+
+Collecting Data
+Gather the right data from various sources and other information based on your priorities.
+
+Cleaning Data
+Clean the data to remove unwanted, redundant, and missing values, and make it ready for analysis.
+
+Exploring and Analyzing Data
+Use data visualization and business intelligence tools, data mining techniques, and predictive modeling to analyze data.
+
+Interpreting the Results
+Interpret the results to find out hidden patterns, future trends, and gain insights."
+What are the common problems that data analysts encounter during analysis?,"The common problems steps involved in any analytics project are:
+
+Handling duplicate 
+Collecting the meaningful right data and the right time
+Handling data purging and storage problems
+Making data secure and dealing with compliance issues"
+What are the best methods for data cleaning?,"Create a data cleaning plan by understanding where the common errors take place and keep all the communications open.
+Before working with the data, identify and remove the duplicates. This will lead to an easy and effective data analysis process.
+Focus on the accuracy of the data. Set cross-field validation, maintain the value types of data, and provide mandatory constraints.
+Normalize the data at the entry point so that it is less chaotic. You will be able to ensure that all information is standardized, leading to fewer errors on entry."
+What is the significance of Exploratory Data Analysis (EDA)?,"Exploratory data analysis (EDA) helps to understand the data better.
+It helps you obtain confidence in your data to a point where you’re ready to engage a machine learning algorithm.
+It allows you to refine your selection of feature variables that will be used later for model building.
+You can discover hidden trends and insights from the data."
+ What are the different types of sampling techniques used by data analysts?,"Sampling is a statistical method to select a subset of data from an entire dataset (population) to estimate the characteristics of the whole population. 
+
+There are majorly five types of sampling methods:
+
+Simple random sampling
+Systematic sampling
+Cluster sampling
+Stratified sampling
+Judgmental or purposive sampling"
+"Describe univariate, bivariate, and multivariate analysis","Univariate analysis is the simplest and easiest form of data analysis where the data being analyzed contains only one variable. 
+
+Example - Studying the heights of players in the NBA.
+
+Univariate analysis can be described using Central Tendency, Dispersion, Quartiles, Bar charts, Histograms, Pie charts, and Frequency distribution tables.
+
+The bivariate analysis involves the analysis of two variables to find causes, relationships, and correlations between the variables. 
+
+Example – Analyzing the sale of ice creams based on the temperature outside.
+
+The bivariate analysis can be explained using Correlation coefficients, Linear regression, Logistic regression, Scatter plots, and Box plots.
+
+The multivariate analysis involves the analysis of three or more variables to understand the relationship of each variable with the other variables. 
+
+Example – Analysing Revenue based on expenditure.
+
+Multivariate analysis can be performed using Multiple regression, Factor analysis, Classification & regression trees, Cluster analysis, Principal component analysis, Dual-axis charts, etc."
+What are your strengths and weaknesses as a data analyst?,"The answer to this question may vary from a case to case basis. However, some general strengths of a data analyst may include strong analytical skills, attention to detail, proficiency in data manipulation and visualization, and the ability to derive insights from complex datasets. Weaknesses could include limited domain knowledge, lack of experience with certain data analysis tools or techniques, or challenges in effectively communicating technical findings to non-technical stakeholders."
+What are the ethical considerations of data analysis?,"Some of the most the ethical considerations of data analysis includes:
+
+Privacy: Safeguarding the privacy and confidentiality of individuals' data, ensuring compliance with applicable privacy laws and regulations.
+Informed Consent: Obtaining informed consent from individuals whose data is being analyzed, explaining the purpose and potential implications of the analysis.
+Data Security: Implementing robust security measures to protect data from unauthorized access, breaches, or misuse.
+Data Bias: Being mindful of potential biases in data collection, processing, or interpretation that may lead to unfair or discriminatory outcomes.
+Transparency: Being transparent about the data analysis methodologies, algorithms, and models used, enabling stakeholders to understand and assess the results.
+Data Ownership and Rights: Respecting data ownership rights and intellectual property, using data only within the boundaries of legal permissions or agreements.
+Accountability: Taking responsibility for the consequences of data analysis, ensuring that actions based on the analysis are fair, just, and beneficial to individuals and society.
+Data Quality and Integrity: Ensuring the accuracy, completeness, and reliability of data used in the analysis to avoid misleading or incorrect conclusions.
+Social Impact: Considering the potential social impact of data analysis results, including potential unintended consequences or negative effects on marginalized groups.
+Compliance: Adhering to legal and regulatory requirements related to data analysis, such as data protection laws, industry standards, and ethical guidelines."
+What are some common data visualization tools you have used?,"You should name the tools you have used personally, however here’s a list of the commonly used data visualization tools in the industry:
+
+Tableau
+Microsoft Power BI
+QlikView
+Google Data Studio
+Plotly
+Matplotlib (Python library)
+Excel (with built-in charting capabilities)
+SAP Lumira
+IBM Cognos Analytics"
+How can you handle missing values in a dataset?,"This is one of the most frequently asked data analyst interview questions, and the interviewer expects you to give a detailed answer here, and not just the name of the methods. There are four methods to handle missing values in a dataset.
+
+Listwise Deletion
+In the listwise deletion method, an entire record is excluded from analysis if any single value is missing.
+
+Average Imputation 
+Take the average value of the other participants' responses and fill in the missing value.
+
+Regression Substitution
+You can use multiple-regression analyses to estimate a missing value.
+
+Multiple Imputations
+It creates plausible values based on the correlations for the missing data and then averages the simulated datasets by incorporating random errors in your predictions."
+What are the different types of Hypothesis testing?,"Hypothesis testing is the procedure used by statisticians and scientists to accept or reject statistical hypotheses. There are mainly two types of hypothesis testing:
+
+Null hypothesis: It states that there is no relation between the predictor and outcome variables in the population. H0 denoted it.  
+Example: There is no association between a patient’s BMI and diabetes.
+
+Alternative hypothesis: It states that there is some relation between the predictor and outcome variables in the population. It is denoted by H1.
+Example: There could be an association between a patient’s BMI and diabetes."
+Explain the Type I and Type II errors in Statistics?,"In Hypothesis testing, a Type I error occurs when the null hypothesis is rejected even if it is true. It is also known as a false positive.
+
+A Type II error occurs when the null hypothesis is not rejected, even if it is false. It is also known as a false negative."
+How would you handle missing data in a dataset?,"The choice of handling technique depends on factors such as the amount and nature of missing data, the underlying analysis, and the assumptions made. It's crucial to exercise caution and carefully consider the implications of the chosen approach to ensure the integrity and reliability of the data analysis. However, a few solutions could be:
+
+removing the missing observations or variables
+imputation methods including, mean imputation (replacing missing values with the mean of the available data), median imputation (replacing missing values with the median), or regression imputation (predicting missing values based on regression models)
+sensitivity analysis "
+ Explain the concept of outlier detection and how you would identify outliers in a dataset.,"Outlier detection is the process of identifying observations or data points that significantly deviate from the expected or normal behavior of a dataset. Outliers can be valuable sources of information or indications of anomalies, errors, or rare events.
+
+It's important to note that outlier detection is not a definitive process, and the identified outliers should be further investigated to determine their validity and potential impact on the analysis or model. Outliers can be due to various reasons, including data entry errors, measurement errors, or genuinely anomalous observations, and each case requires careful consideration and interpretation"
